@@ -338,16 +338,16 @@ function App() {
                                         color: "var(--accent-text)",
                                         fontFamily: "comic sans ms",
                                         fontWeight: "bold",
-                                        textShadow: "2px 2px blue",
+                                        //textShadow: "2px 2px blue",
                                     }}
                                 >
 
-                                    clackCLACKclackCLACKclackCLACKclackCLACKclackCLACK
+                                    REKT mfers is a collection of 2000 unique REKT mfers inspired
                                     <br />
-                                    do u know da wae?
+                                    by crypto meme culture and stored on the Ethereum blockchain.
                                     <br />
                                     <br />
-                                    First 1200 are free, rest are .005Ξ
+                                    First 1500 are free to mint, rest are .005Ξ
                                     <br />
 
 

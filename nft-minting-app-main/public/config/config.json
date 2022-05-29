@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x824642f78e6114459172d3ab2303df6be9fea768",
-  "SCAN_LINK": "https://etherscan.io/address/0x824642f78e6114459172d3ab2303df6be9fea768",
+  "CONTRACT_ADDRESS": "0xd8aae8e80b0a06d7b9a46c2689ba2c74be8194ae",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xd8aae8e80b0a06d7b9a46c2689ba2c74be8194ae",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 1
+    "ID": 4
   },
-  "NFT_NAME": "clackCLACKclack",
-  "SYMBOL": "CLACK",
+  "NFT_NAME": "REKT Mfers",
+  "SYMBOL": "RMFER",
   "MAX_SUPPLY": 2000,
   "WEI_COST": 5000000000000000,
   "DISPLAY_COST": 0.005,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/clackclackclack",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/rektmfers",
   "SHOW_BACKGROUND": true
 }
