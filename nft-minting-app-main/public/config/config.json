@@ -1,12 +1,12 @@
 {
-  "CONTRACT_ADDRESS": "0xd8aae8e80b0a06d7b9a46c2689ba2c74be8194ae",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xd8aae8e80b0a06d7b9a46c2689ba2c74be8194ae",
+  "CONTRACT_ADDRESS": "0xf791d71011a8d211de578e2e8bf8d707129be504",
+  "SCAN_LINK": "https://etherscan.io/address/0xf791d71011a8d211de578e2e8bf8d707129be504",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
-  "NFT_NAME": "REKT Mfers",
+  "NFT_NAME": "rekt MFERS",
   "SYMBOL": "RMFER",
   "MAX_SUPPLY": 2000,
   "WEI_COST": 5000000000000000,
