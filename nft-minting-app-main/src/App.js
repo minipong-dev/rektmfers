@@ -229,7 +229,7 @@ function App() {
                 ai={"center"}
                 style={{ padding: 74, backgroundColor: "var(--primary)" }}
 
-                image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
+                image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.jpg" : null}
 
 
 
@@ -342,9 +342,7 @@ function App() {
                                     }}
                                 >
 
-                                    REKT mfers is a collection of 2000 unique REKT mfers inspired
-                                    <br />
-                                    by crypto meme culture and stored on the Ethereum blockchain.
+                                    REKT mfers is a collection of 2000 unique REKT mfers inspired by crypto meme culture and stored on the Ethereum blockchain.
                                     <br />
                                     <br />
                                     First 1500 are free to mint, rest are .005Ξ
