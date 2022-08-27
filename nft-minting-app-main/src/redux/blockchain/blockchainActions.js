@@ -1,6 +1,7 @@
 // constants
 import Web3EthContract from "web3-eth-contract";
 import Web3 from "web3";
+
 // log
 import { fetchData } from "../data/dataActions";
 
@@ -18,6 +19,7 @@ const connectSuccess = (payload) => {
 };
 
 const connectFailed = (payload) => {
+  document.getElementById("notification").classList.add("notification-show");
   return {
     type: "CONNECTION_FAILED",
     payload: payload,
@@ -84,7 +86,7 @@ export const connect = () => {
           dispatch(connectFailed(`Change network to ${CONFIG.NETWORK.NAME}.`));
         }
       } catch (err) {
-        dispatch(connectFailed("Something went wrong."));
+        dispatch(connectFailed("Something went wrong: " + err));
       }
     } else {
       dispatch(connectFailed("Install Metamask."));

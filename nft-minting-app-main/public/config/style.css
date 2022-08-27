@@ -1,0 +1,168 @@
+/*   color variables */
+/*   border radius */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #0e48fe;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #eef1f6;
+  padding: 0.5rem;
+}
+.btn-primary svg {
+  width: 1rem;
+  fill: #eef1f6;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #0e48fe;
+  border: none;
+  cursor: pointer;
+}
+
+.notification {
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: #ffebeb;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.notification__warning {
+  width: 1.5rem;
+  margin-left: 1rem;
+  fill: #e00000;
+}
+.notification__close {
+  background-color: #ffc2c2;
+  padding: 1rem;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+.notification__close svg {
+  width: 1rem;
+  fill: #e00000;
+}
+.notification-show {
+  animation: warning 400ms ease-in-out forwards;
+  display: flex;
+}
+
+@keyframes warning {
+  0% {
+    opacity: 0;
+    top: 2rem;
+  }
+  5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 5rem;
+  }
+}
+.tg-list-item {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.tgl {
+  display: none;
+}
+.tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+  background: none;
+}
+.tgl + .tgl-btn {
+  outline: 0;
+  display: block;
+  width: 80px;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+.tgl + .tgl-btn:after {
+  left: 0;
+}
+.tgl + .tgl-btn:before {
+  display: none;
+}
+.tgl:checked + .tgl-btn:after {
+  left: 50%;
+}
+
+.tgl-flip + .tgl-btn {
+  padding: 2px;
+  transition: all 0.2s ease;
+  font-family: sans-serif;
+  perspective: 100px;
+}
+.tgl-flip + .tgl-btn:after, .tgl-flip + .tgl-btn:before {
+  display: inline-block;
+  transition: all 0.4s ease;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  line-height: 2em;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 4px;
+}
+.tgl-flip + .tgl-btn:after {
+  content: attr(data-tg-on);
+  background: #FF3A19;
+  transform: rotateY(-180deg);
+}
+.tgl-flip + .tgl-btn:before {
+  background: #02C66F;
+  content: attr(data-tg-off);
+}
+.tgl-flip + .tgl-btn:active:before {
+  transform: rotateY(-20deg);
+}
+.tgl-flip:checked + .tgl-btn:before {
+  transform: rotateY(180deg);
+}
+.tgl-flip:checked + .tgl-btn:after {
+  transform: rotateY(0);
+  left: 0;
+  background: #FF3A19;
+}
+.tgl-flip:checked + .tgl-btn:active:after {
+  transform: rotateY(20deg);
+}/*# sourceMappingURL=style.css.map */

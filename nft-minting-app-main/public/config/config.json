@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xf791d71011a8d211de578e2e8bf8d707129be504",
-  "SCAN_LINK": "https://etherscan.io/address/0xf791d71011a8d211de578e2e8bf8d707129be504",
+  "CONTRACT_ADDRESS": "0x8e8ab455325cd5dce77d5adcfe81f4954fc80d18",
+  "SCAN_LINK": "https://etherscan.io/address/0x288e76fc06359a759ee9947aec107609aa1d60fe",
   "NETWORK": {
-    "NAME": "Ethereum",
+    "NAME": "Rinkeby",
     "SYMBOL": "ETH",
-    "ID": 1
+    "ID": 4
   },
-  "NFT_NAME": "rekt MFERS",
-  "SYMBOL": "RMFER",
-  "MAX_SUPPLY": 2000,
-  "WEI_COST": 5000000000000000,
-  "DISPLAY_COST": 0.005,
+  "NFT_NAME": "PepeRoyale",
+  "SYMBOL": "PEPE",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0.000,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/rektmfers",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
   "SHOW_BACKGROUND": true
-}
+} 
